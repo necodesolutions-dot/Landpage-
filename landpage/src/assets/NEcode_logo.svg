@@ -1,0 +1,13 @@
+
+<svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="400" height="120" fill="white"/>
+  
+  <!-- Ícone -->
+  <rect x="20" y="20" width="60" height="60" rx="12" fill="#F5F7FA"/>
+  <text x="35" y="62" font-size="28" font-family="monospace" fill="#4A90E2">&lt;/&gt;</text>
+  
+  <!-- Texto -->
+  <text x="100" y="65" font-size="36" font-family="Poppins, sans-serif" font-weight="bold" fill="#4A90E2">NE</text>
+  <text x="180" y="65" font-size="36" font-family="Poppins, sans-serif" font-weight="bold" fill="#6BBF8C">code</text>
+</svg>
