@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;     
+  align-items: flex-start;     
+  gap: 2rem;                    
+  padding: 2rem;                
+  background-color: #A1AEEF; 
+  min-height: 100vh;            
+  box-sizing: border-box;
+}

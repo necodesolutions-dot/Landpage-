@@ -3,9 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+.app {
+  background-color: #A1AEEF;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
 
-body{
-
-    background-color: #A1AEEF;
-    font-family:  sans-serif;
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  justify-items: center;
 }
