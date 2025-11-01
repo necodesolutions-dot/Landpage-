@@ -6,7 +6,8 @@ export function About(title, img, description) {
     <>
    <div className={styles.container}>
     <img src ={img} alt=""  className={styles.img} />
-    <h4></h4>
+    <h4 className={styles.titulo}>{title}</h4>
+    <p className={styles.description}>{description}</p>
    </div>
     
     </>

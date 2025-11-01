@@ -32,10 +32,10 @@ export function Equipe() {
       />
           <Profile
         avatar={FotoDeVictor}
-        name="Victor Rodriguez "
+        name="Victor Rodrigues "
         bio="Desenvolvedor Front-end"
         email="victor.rodrigues@ufrpe.br"
-        phone="(81) 99599-4894"
+        phone=" (87) 9211-6830"
         githubUrl="https://github.com/V1ctorRodrigues"
         instagramUrl="https://www.instagram.com/vii.ctorx?"
         theme =""
