@@ -24,8 +24,8 @@ export function Equipe() {
         avatar={FotoDeLuis}
         name="Luis Miguel"
         bio="Desenvolvedor Front-end"
-        email="luis.negreiros@ufrpe.com"
-        phone="(8) 98256-8709"
+        email="luis.negreiros@ufrpe.br"
+        phone="(81) 98256-8709"
         githubUrl="https://github.com/Luis-PyDev01"
         instagramUrl="https://www.instagram.com/luis_t63/"
         theme =""
@@ -33,7 +33,7 @@ export function Equipe() {
           <Profile
         avatar={FotoDeVictor}
         name="Victor Rodriguez "
-        bio="Desenvolvedor Front-end| react"
+        bio="Desenvolvedor Front-end"
         email="victor.rodrigues@ufrpe.br"
         phone="(81) 99599-4894"
         githubUrl="https://github.com/V1ctorRodrigues"
