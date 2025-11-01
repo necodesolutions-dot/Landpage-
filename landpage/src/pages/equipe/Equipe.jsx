@@ -37,7 +37,7 @@ export function Equipe() {
         email="victor.rodrigues@ufrpe.br"
         phone="(81) 99599-4894"
         githubUrl="https://github.com/V1ctorRodrigues"
-        instagramUrl="https://www.instagram.com/pedrinho_emmanuel/"
+        instagramUrl="https://www.instagram.com/vii.ctorx?"
         theme =""
       />
          <Profile
