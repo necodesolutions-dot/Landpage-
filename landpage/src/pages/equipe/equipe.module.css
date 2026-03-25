@@ -1,11 +1,10 @@
 .container {
+  background-color: #a1aeef;
+  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;           
-  justify-content: center;     
-  align-items: flex-start;     
-  gap: 2rem;                    
-  padding: 2rem;                
-  background-color: #A1AEEF; 
-  min-height: 100vh;            
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
   box-sizing: border-box;
 }

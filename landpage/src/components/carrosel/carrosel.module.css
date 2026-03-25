@@ -1,0 +1,36 @@
+.titulo {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🔽 Personaliza as setas do Swiper */
+.swiper-button-prev,
+.swiper-button-next {
+  color: white; /* Cor das setas */
+  transition: color 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #63c09b; /* cor do hover, combinando com NEcode */
+}
+
+/* Centraliza o carrossel */
+.swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+  scale: 1.2; /* deixa um pouco maior */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #63c09b !important;
+}

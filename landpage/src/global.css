@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .app {
   background-color: #A1AEEF;
   font-family: sans-serif;
@@ -21,3 +22,38 @@
   max-width: 1200px;
   justify-items: center;
 }
+
+/* ====== SETAS ====== */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000000 !important;   /* CORREÇÃO */
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.8;
+  transition: opacity 0.3s, color 0.3s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #63c09b !important;
+  opacity: 1;
+}
+
+/* ====== CENTRALIZAR AS BOLINHAS ====== */
+.swiper-pagination {
+  bottom: -5px !important;
+  display: flex !important;
+  justify-content: center !important;
+  left: 50% !important;             /* 🔥 ADICIONADO */
+  transform: translateX(-50%) !important; /* 🔥 ADICIONADO */
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  bac
